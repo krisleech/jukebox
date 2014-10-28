@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   root 'songs#index'
 
+  post 'votes' => 'votes#create', as: :votes
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

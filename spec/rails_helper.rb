@@ -6,6 +6,8 @@ require 'rspec/rails'
 
 ActiveRecord::Migration.maintain_test_schema!
 
+require 'support/database_cleaner'
+
 RSpec.configure do |config|
   config.use_transactional_fixtures = false
 

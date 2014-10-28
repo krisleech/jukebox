@@ -29,6 +29,7 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'pry-byebug'
   gem 'simplecov'
+  gem 'database_cleaner'
 end
 
 group :development do
