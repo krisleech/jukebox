@@ -23,6 +23,7 @@ gem 'unicorn-rails'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'capybara'
   gem 'guard-rspec', require: false
   gem 'pry-byebug'
   gem 'simplecov'
