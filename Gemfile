@@ -11,6 +11,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails', '~> 4.0.0.beta2'
 # gem 'turbolinks'
 
+gem 'haml'
+
 # gem 'jbuilder', '~> 2.0'
 
 # Use ActiveModel has_secure_password
