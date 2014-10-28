@@ -9,9 +9,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails', '~> 4.0.0.beta2'
-# gem 'turbolinks'
+gem 'turbolinks'
 
-gem 'haml'
+gem 'haml', '~> 4.0'
 
 # gem 'jbuilder', '~> 2.0'
 

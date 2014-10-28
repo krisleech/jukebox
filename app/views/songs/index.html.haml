@@ -1,1 +1,9 @@
-%2 Songs
+%h2 Jukebox
+
+- unless @songs.empty?
+  - @songs.each do |song|
+    %div{ id: song.title.parameterize }
+      = song.title
+      = song.votes
+- else
+  %p No songs in Jukebox, ask someone to add some.
