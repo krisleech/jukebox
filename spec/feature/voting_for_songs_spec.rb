@@ -10,6 +10,6 @@ feature 'voting for a song' do
       click_on 'Vote'
     end
 
-    expect(page).to have_content('Successfully voted for Feeling Good')
+    expect(page).to have_content('Successfully voted')
   end
 end
