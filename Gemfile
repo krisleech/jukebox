@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'foreman'
+
 gem 'rails', '4.2.0.beta2'
 gem 'sqlite3'
 
