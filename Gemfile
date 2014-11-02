@@ -24,6 +24,7 @@ gem 'unicorn'
 gem 'unicorn-rails'
 
 gem 'wisper'
+gem 'routemaster-client'
 
 # gem 'capistrano-rails', group: :development
 

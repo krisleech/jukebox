@@ -1,5 +1,6 @@
 require 'wisper'
 
+# TODO: rename to CastVote
 class VoteForSong
   include Wisper.publisher
 

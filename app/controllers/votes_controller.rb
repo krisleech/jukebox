@@ -1,7 +1,9 @@
 class VotesController < ApplicationController
   def create
-    VoteForSong.call(song_id)
-    redirect_to root_url, notice: "Successfully voted"
+    cast_vote = VoteForSong.new(song_id)
+    cast_vote.subscribe(RoutemasterListener.new, prefix: 'on')
+    cast_vote.call
+    redirect_to root_url, notice: 'Successfully voted for Feeling Good'
   end
 
   private
