@@ -11,6 +11,11 @@ class VoteForSong
     song.increment!(:votes)
     song.save!
     broadcast(:vote_cast, song.id)
+    self
+  end
+
+  def self.call(song_id)
+    new(song_id).call
   end
 
   private
