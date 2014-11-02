@@ -1,0 +1,5 @@
+* Add Now Playing
+* Play song then reset votes to zero
+* HTML5 audio tag
+* Publish event to Routemaster when vote ouccurs
+  * Put Voting inside service object with subscriber to send event to RM

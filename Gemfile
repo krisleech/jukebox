@@ -11,7 +11,9 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails', '~> 4.0.0.beta2'
-# gem 'turbolinks'
+gem 'turbolinks'
+
+gem 'haml', '~> 4.0'
 
 # gem 'jbuilder', '~> 2.0'
 
@@ -25,9 +27,11 @@ gem 'unicorn-rails'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'capybara'
   gem 'guard-rspec', require: false
   gem 'pry-byebug'
   gem 'simplecov'
+  gem 'database_cleaner'
 end
 
 group :development do
