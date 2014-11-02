@@ -9,10 +9,9 @@ describe VotesController do
       expect(response).to be_redirect
     end
 
-    it 'increments votes' do
-      expect do
-        post :create, song_id: song.id
-      end.to change { song.reload.votes }.by(1)
+    it 'calls service' do
+      expect_any_instance_of(VoteForSong).to receive(:call)
+      post :create, song_id: song.id
     end
   end
 

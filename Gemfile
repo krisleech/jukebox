@@ -8,7 +8,7 @@ gem 'sqlite3'
 gem 'sass-rails', '~> 5.0.0.beta1'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails', '~> 4.0.0.beta2'
 gem 'turbolinks'
@@ -22,6 +22,8 @@ gem 'haml', '~> 4.0'
 
 gem 'unicorn'
 gem 'unicorn-rails'
+
+gem 'wisper'
 
 # gem 'capistrano-rails', group: :development
 
