@@ -6,6 +6,8 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+Dotenv.load(".env.#{Rails.env}", '.env', '.env.local')
+
 module Jukebox
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
