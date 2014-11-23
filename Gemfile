@@ -30,13 +30,13 @@ gem 'routemaster-client'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  gem 'rspec-rails'
-  gem 'capybara'
-  gem 'guard-rspec', require: false
-  gem 'pry-byebug'
-  gem 'simplecov'
-  gem 'database_cleaner'
-  gem 'tunnels' # SSL proxy
+  gem 'rspec-rails',      require: false
+  gem 'capybara',         require: false
+  gem 'guard-rspec',      require: false
+  gem 'pry-byebug',       require: false
+  gem 'simplecov',        require: false
+  gem 'database_cleaner', require: false
+  gem 'tunnels',          require: false # SSL proxy
 end
 
 group :development do
