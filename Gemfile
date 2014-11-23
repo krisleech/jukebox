@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'dotenv'
 gem 'foreman'
 
 gem 'rails', '4.2.0.beta2'
@@ -35,6 +36,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'simplecov'
   gem 'database_cleaner'
+  gem 'tunnels' # SSL proxy
 end
 
 group :development do
